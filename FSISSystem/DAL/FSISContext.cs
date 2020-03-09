@@ -8,7 +8,13 @@ namespace FSISSystem.DAL
 {
     class FSISContext : DbContext
     {
-        internal class 
+        internal class DbSet<T>
+        {
+
+        }
     }
-    public DBSet<
+    public  class DbContext 
+    {
+
+    }
 }
